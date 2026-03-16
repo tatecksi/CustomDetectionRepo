@@ -19,6 +19,10 @@ resource detectionRule 'Microsoft.Security/detectionRules@2026-01-01-preview' = 
       category: 'Exfiltration'
       recommendedActions: 'test bicep detection rule 3'
       mitreTechniques: []
+      customDetails: {
+      	AppName: 'AppDisplayName'
+      	Location: 'Location'
+        }
       impactedAssets: [
         {
           '@odata.type': '#microsoft.graph.security.impactedUserAsset'
