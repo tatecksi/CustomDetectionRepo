@@ -22,7 +22,7 @@ resource detectionRule 'Microsoft.Security/detectionRules@2026-01-01-preview' = 
       impactedAssets: [
         {
           '@odata.type': '#microsoft.graph.security.impactedUserAsset'
-          identifier: 'ServicePrincipalId'
+          identifier: 'servicePrincipalId'
         }
 ]
     }
