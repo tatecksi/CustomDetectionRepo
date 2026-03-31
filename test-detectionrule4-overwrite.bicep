@@ -3,7 +3,7 @@ extension MicrosoftSecurity
 // targetScope = 'tenant'
 
 resource detectionRule 'Microsoft.Security/detectionRules@2026-01-01-preview' = {
-  displayName: 'test bicep detection rule4'
+  displayName: 'test bicep detection rule4.4'
   isEnabled: true
   queryCondition: {
     queryText: 'SigninLogs\r\n| take 2'
